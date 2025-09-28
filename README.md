@@ -1,13 +1,13 @@
-# 🔒 Task 4: Firewall Setup and Rules Management (Windows)
+#   Firewall Setup and Rules Management (Windows)
 
-## 🎯 Objective
+##  Objective
 
 To configure and test basic firewall rules on Windows using **Windows
 Defender Firewall with Advanced Security**.
 
 ------------------------------------------------------------------------
 
-## 🛠 Steps Performed
+##  Steps Performed
 
 ### 1. Open Firewall
 
@@ -28,7 +28,7 @@ Defender Firewall with Advanced Security**.
 5.  Applied to **Domain, Private, Public** profiles.\
 6.  Named the rule: **Block Telnet (Port 23)**.
 
-✅ Result: Attempting `telnet localhost 23` failed (as expected).
+ Result: Attempting `telnet localhost 23` failed (as expected).
 
 ### 4. Allow SSH (Port 22)
 
@@ -37,7 +37,7 @@ Defender Firewall with Advanced Security**.
 3.  Applied to all profiles.\
 4.  Named it: **Allow SSH (Port 22)**.
 
-✅ Result: SSH traffic allowed (if OpenSSH is installed on Windows).
+ Result: SSH traffic allowed (if OpenSSH is installed on Windows).
 
 ### 5. Remove Block Rule
 
@@ -48,7 +48,7 @@ Defender Firewall with Advanced Security**.
 
 ------------------------------------------------------------------------
 
-## 📚 Key Learnings
+##  Key Learnings
 
 -   **Firewall** filters traffic based on rules (inbound/outbound).\
 -   **Blocking unsafe ports** (like Telnet on port 23) improves
@@ -60,7 +60,7 @@ Defender Firewall with Advanced Security**.
 
 ------------------------------------------------------------------------
 
-## 📂 Deliverables
+##  Deliverables
 
 -   Screenshots of firewall rule setup.\
 -   This README explaining steps and results.
