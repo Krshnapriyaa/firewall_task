@@ -45,12 +45,6 @@ Defender Firewall with Advanced Security**.
 -   Right-click → **Disable Rule** / **Delete Rule**.\
 -   Restored firewall to original state.
 
-------------------------------------------------------------------------
-
-## 📸 Screenshots
-
-*(Add your screenshots here -- e.g., rule creation wizard, blocked rule
-list, Telnet test)*
 
 ------------------------------------------------------------------------
 
